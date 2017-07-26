@@ -1,0 +1,9 @@
+.subscribe
+  p.subscribe__text Get the&nbsp;latest news +&nbsp;sweet&nbsp;deals
+  .subscribe__form
+    form(action="subscride.php", method="post")
+      label.subscribe__label(for='name') Name
+      input#name(type='text', name='name', placeholder='Name', required='')
+      label.subscribe__label(for='email') Еmail
+      input#email(type='email', name='email', placeholder='Email', required='')
+      button.btn.subscribe__submit(type='submit') Sign up!

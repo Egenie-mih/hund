@@ -1,0 +1,24 @@
+.dogs-gallery
+  position relative
+  font-size 0
+  border-bottom 2px solid #e27e1d
+  border-width 0px 0px 2px 0px
+  border-style solid
+  border-image -webkit-linear-gradient(left, #e27e1d 0%, #e27e1d 50%, #34d8a6 50%, #34d8a6 100%) 1
+  background-image border-image -webkit-linear-gradient(left, #e27e1d 0%, #e27e1d 50%, #34d8a6 50%, #34d8a6 100%) 1
+  background-image border-image -o-linear-gradient(left, #e27e1d 0%, #e27e1d 50%, #34d8a6 50%, #34d8a6 100%) 1
+  background-image border-image linear-gradient(to right, #e27e1d 0%, #e27e1d 50%, #34d8a6 50%, #34d8a6 100%) 1
+  &::after
+    content ''
+    position absolute
+    bottom -2px
+    left 0
+    right 0
+    width 676px
+    height 2px
+    margin 0 auto
+    background linear-gradient(to right, #e27e1d 0px, #e27e1d 152px, #e5a100 152px, #e5a100 289px, #e8c907 289px, #e8c907 418px, #bad121 418px, #bad121 548px, #34d8a6 548px)
+
+.dogs-gallery__container
+  width 1000px
+  margin 0 auto

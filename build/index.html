@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>Huds</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__top-header">
+        <div class="page-header__container">
+          <div class="top-nav"><a href="about.html" class="top-nav__link">About</a><a href="index.html" class="top-nav__link">Home</a></div><a class="logo"><img src="img/logo.png" width="196" height="64" alt="Huds"></a>
+          <div class="page-header__sticker">Best<span class="page-header__animal">dogs</span><span class="page-header__year">2017</span></div>
+        </div>
+      </div>
+      <div class="page-header__menu">
+        <div class="page-header__container">
+          <nav class="main-nav">
+            <ol class="main-nav__list">
+              <li class="main-nav__item main-nav__item--breeds"><a href="/breeds.html" class="main-nav__link main-nav__link--breeds">Hunderassen</a></li>
+              <li class="main-nav__item main-nav__item--favorites"><a href="/favorites.html" class="main-nav__link main-nav__link--favorites">Favoriten</a></li>
+              <li class="main-nav__item main-nav__item--shop"><a href="/shop.html" class="main-nav__link main-nav__link--shop">Magazin</a></li>
+              <li class="main-nav__item main-nav__item--breeders"><a href="/breeders.html" class="main-nav__link main-nav__link--breeders">Zuchter</a></li>
+              <li class="main-nav__item main-nav__item--societies"><a href="/societies.html" class="main-nav__link main-nav__link--societies">Vereine</a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="news-slider">
+      <div id="carousel" class="owl-carousel owl-theme">
+        <section class="news-slider__item"><img src="img/slider-1.jpg" width="224" height="265" alt="Photo of a dog">
+          <div class="news-slider__block"><span class="news-slider__tag">Neue</span>
+            <h2 class="news-slider__title">Empfehlung</h2><a href="#" class="btn news-slider__btn">Read now</a>
+          </div>
+        </section>
+        <section class="news-slider__item"><img src="img/slider-2.jpg" width="224" height="265" alt="Photo of a dog">
+          <div class="news-slider__block"><span class="news-slider__tag">Neue</span>
+            <h2 class="news-slider__title">Empfehlung</h2><a href="#" class="btn news-slider__btn">Read now</a>
+          </div>
+        </section>
+      </div>
+      <div class="news-slider__controls owl-controls">
+        <button class="news-slider__prev">Previous slide</button>
+        <button class="news-slider__next">Next slide</button>
+      </div>
+    </div>
+    <div class="subscribe">
+      <p class="subscribe__text">Get the&nbsp;latest news +&nbsp;sweet&nbsp;deals</p>
+      <div class="subscribe__form">
+        <form action="subscride.php" method="post">
+          <label for="name" class="subscribe__label">Name</label>
+          <input id="name" type="text" name="name" placeholder="Name" required="">
+          <label for="email" class="subscribe__label">Еmail</label>
+          <input id="email" type="email" name="email" placeholder="Email" required="">
+          <button type="submit" class="btn subscribe__submit">Sign up!</button>
+        </form>
+      </div>
+    </div>
+    <section class="news">
+      <h2 class="news__title">Aktuelles aus der Welt der Hunde</h2>
+      <div class="news__list">
+        <article class="news__item">
+          <div class="news__item-image"><img src="img/news-1.jpg" width="224" height="265" alt="Photo of a dog">
+            <div class="news__item-btns"><a href="#" class="news__item-btn news__item-btn--preview">Preview</a><a href="#" class="news__item-btn news__item-btn--more">More</a></div>
+          </div><a href="#" class="news__item-tag">Gewinnspiel</a>
+          <h3 class="news__item-title">Gewinnspiel:<br> Thermoplace-Körbchen</h3>
+          <time datetime="2017-05-24" class="news__item-date">24.05.2017</time>
+        </article>
+        <article class="news__item">
+          <div class="news__item-image"><img src="img/news-2.jpg" width="224" height="265" alt="Photo of a dog">
+            <div class="news__item-btns"><a href="#" class="news__item-btn news__item-btn--preview">Preview</a><a href="#" class="news__item-btn news__item-btn--more">More</a></div>
+          </div><a href="#" class="news__item-tag">Gewinnspiel</a>
+          <h3 class="news__item-title">Gewinnspiel:<br> Thermoplace-Körbchen</h3>
+          <time datetime="2017-05-24" class="news__item-date">24.05.2017</time>
+        </article>
+        <article class="news__item">
+          <div class="news__item-image"><img src="img/news-3.jpg" width="224" height="265" alt="Photo of a dog">
+            <div class="news__item-btns"><a href="#" class="news__item-btn news__item-btn--preview">Preview</a><a href="#" class="news__item-btn news__item-btn--more">More</a></div>
+          </div><a href="#" class="news__item-tag">Gewinnspiel</a>
+          <h3 class="news__item-title">Gewinnspiel:<br> Thermoplace-Körbchen</h3>
+          <time datetime="2017-05-24" class="news__item-date">24.05.2017</time>
+        </article>
+        <article class="news__item">
+          <div class="news__item-image"><img src="img/news-4.jpg" width="224" height="265" alt="Photo of a dog">
+            <div class="news__item-btns"><a href="#" class="news__item-btn news__item-btn--preview">Preview</a><a href="#" class="news__item-btn news__item-btn--more">More</a></div>
+          </div><a href="#" class="news__item-tag">Gewinnspiel</a>
+          <h3 class="news__item-title">Gewinnspiel:<br> Thermoplace-Körbchen</h3>
+          <time datetime="2017-05-24" class="news__item-date">24.05.2017</time>
+        </article>
+        <article class="news__item">
+          <div class="news__item-image"><img src="img/news-5.jpg" width="224" height="265" alt="Photo of a dog">
+            <div class="news__item-btns"><a href="#" class="news__item-btn news__item-btn--preview">Preview</a><a href="#" class="news__item-btn news__item-btn--more">More</a></div>
+          </div><a href="#" class="news__item-tag">Gewinnspiel</a>
+          <h3 class="news__item-title">Gewinnspiel:<br> Thermoplace-Körbchen</h3>
+          <time datetime="2017-05-24" class="news__item-date">24.05.2017</time>
+        </article>
+        <article class="news__item">
+          <div class="news__item-image"><img src="img/news-6.jpg" width="224" height="265" alt="Photo of a dog">
+            <div class="news__item-btns"><a href="#" class="news__item-btn news__item-btn--preview">Preview</a><a href="#" class="news__item-btn news__item-btn--more">More</a></div>
+          </div><a href="#" class="news__item-tag">Gewinnspiel</a>
+          <h3 class="news__item-title">Gewinnspiel:<br> Thermoplace-Körbchen</h3>
+          <time datetime="2017-05-24" class="news__item-date">24.05.2017</time>
+        </article>
+        <article class="news__item">
+          <div class="news__item-image"><img src="img/news-7.jpg" width="224" height="265" alt="Photo of a dog">
+            <div class="news__item-btns"><a href="#" class="news__item-btn news__item-btn--preview">Preview</a><a href="#" class="news__item-btn news__item-btn--more">More</a></div>
+          </div><a href="#" class="news__item-tag">Gewinnspiel</a>
+          <h3 class="news__item-title">Gewinnspiel:<br> Thermoplace-Körbchen</h3>
+          <time datetime="2017-05-24" class="news__item-date">24.05.2017</time>
+        </article>
+        <article class="news__item">
+          <div class="news__item-image"><img src="img/news-8.jpg" width="224" height="265" alt="Photo of a dog">
+            <div class="news__item-btns"><a href="#" class="news__item-btn news__item-btn--preview">Preview</a><a href="#" class="news__item-btn news__item-btn--more">More</a></div>
+          </div><a href="#" class="news__item-tag">Gewinnspiel</a>
+          <h3 class="news__item-title">Gewinnspiel:<br> Thermoplace-Körbchen</h3>
+          <time datetime="2017-05-24" class="news__item-date">24.05.2017</time>
+        </article>
+      </div>
+    </section>
+    <div class="promo">
+      <section class="post-promo">
+        <div class="post-promo__slogan">A dog will love your forever!</div>
+        <p class="post-promo__text">Let true friendship into your life!</p>
+      </section>
+      <section class="newsletter">
+        <h4 class="newsletter__title">Newsletter</h4>
+        <p class="newsletter__text">Jetz anmelden & kein Gewinnspiel mehr  verpassen!</p><a href="#" class="newsletter__btn">Subscribe</a>
+      </section>
+      <section class="post-new">
+        <div class="post-new__image"><img src="img/post-image.jpg" width="225" height="236" alt="Reader photo"></div>
+        <div class="post-new__info">
+          <h4 class="post-new__title">Do you want puppies that are lovers or loners?</h4><a href="#" class="post-new__btn">Read now</a>
+        </div>
+      </section>
+      <div class="post-meta">
+        <div class="post-meta__shares">Shares<span>205</span></div>
+        <div class="post-meta__likes">Likes<span>205</span></div>
+        <div class="post-meta__readers"><a href="#" class="post-meta__link"><img src="img/reader-1.jpg" width="55" height="55" alt="Reader photo"></a><a href="#" class="post-meta__link"><img src="img/reader-2.jpg" width="55" height="55" alt="Reader photo"></a><a href="#" class="post-meta__link"><img src="img/reader-3.jpg" width="55" height="55" alt="Reader photo"></a><a href="#" class="post-meta__link"><img src="img/reader-4.jpg" width="55" height="55" alt="Reader photo"></a><a href="#" class="post-meta__link"><img src="img/reader-5.jpg" width="55" height="55" alt="Reader photo"></a><a href="#" class="post-meta__link"><img src="img/reader-6.jpg" width="55" height="55" alt="Reader photo"></a><a href="#" class="post-meta__link"><img src="img/reader-7.jpg" width="55" height="55" alt="Reader photo"></a></div>
+      </div>
+    </div>
+    <footer class="page-footer">
+      <div class="page-footer__container"><a class="logo logo--footer"><img src="img/logo.png" width="196" height="64" alt="Hund"></a>
+        <ul class="page-footer__menu">
+          <li class="page-footer__item"><a href="contacts.html" class="page-footer__link">Kontakt Impressum</a></li>
+          <li class="page-footer__item"><a href="contacts.html" class="page-footer__link">Dezidierter Bildnachweis Datenschutz</a></li>
+          <li class="page-footer__item"><a href="contacts.html" class="page-footer__link">Teilnahmebedingungen & Nutzungsrechte</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="dogs-gallery">
+      <div class="dogs-gallery__container"><img src="img/dog-1.jpg" width="142" height="142" alt="Dog breed"><img src="img/dog-2.jpg" width="142" height="142" alt="Dog breed"><img src="img/dog-3.jpg" width="142" height="142" alt="Dog breed"><img src="img/dog-4.jpg" width="142" height="142" alt="Dog breed"><img src="img/dog-5.jpg" width="142" height="142" alt="Dog breed"><img src="img/dog-6.jpg" width="142" height="142" alt="Dog breed"><img src="img/dog-7.jpg" width="142" height="142" alt="Dog breed"></div>
+    </div><a href="#" class="btn-scroll-top">Up</a>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
